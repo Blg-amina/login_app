@@ -1,0 +1,23 @@
+# Force GitHub to recognize Flutter/Dart projects correctly
+
+*.dart linguist-language=Dart
+*.yaml linguist-language=Dart
+*.yaml linguist-detectable=true
+*.lock linguist-detectable=false
+
+# Prevent generated/platform-specific files from skewing stats
+*.cc linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.mm linguist-vendored
+*.swift linguist-vendored
+*.kt linguist-vendored
+*.kts linguist-vendored
+*.java linguist-vendored
+*.gradle linguist-vendored
+*.plist linguist-vendored
+*.cmake linguist-vendored
+*.vcxproj linguist-vendored
+*.xcworkspacedata linguist-vendored
+*.xcsettings linguist-vendored
+*.xcscheme linguist-vendored
